@@ -43,10 +43,19 @@ test:
     - test -f ${PREFIX}/include/wayland-server.h
 
 about:
-  home: https://gitlab.freedesktop.org/wayland/wayland
+  home: https://wayland.freedesktop.org
   license: MIT
+  license_family: MIT
   license_file: COPYING
   summary: Base libraries for the Wayland rendering architecture
+  description: "Wayland is a project to define a protocol for a compositor to talk to
+    its clients as well as a library implementation of the protocol.  The
+    compositor can be a standalone display server running on Linux kernel
+    modesetting and evdev input devices, an X application, or a wayland
+    client itself.  The clients can be traditional applications, X servers
+    (rootless or fullscreen) or other display servers."
+  doc_url: https://wayland.freedesktop.org/docs/html
+  dev_url: https://gitlab.freedesktop.org/wayland/wayland
 
 extra:
   recipe-maintainers:
