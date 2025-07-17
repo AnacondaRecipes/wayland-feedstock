@@ -16,10 +16,10 @@ build:
 
 requirements:
   build:
-    - pkg-config
-    - {{ compiler('c') }}
     - {{ stdlib('c') }}
+    - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - pkg-config
     - meson
     - ninja
   host:
