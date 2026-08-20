@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.freedesktop.org/{name}/{name}/-/archive/{version}/{name}-{version}.tar.bz2
-  sha256: c6ab078790f60858c7688278f71f18f7400ddbc91ff12da17870c2dc5616a290
+  sha256: e759c5335ee29251764a7121b8f2eb0f879b769b6e483fd4b911986d6a06a0d8
 
 build:
   number: 0
