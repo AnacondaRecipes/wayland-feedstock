@@ -20,9 +20,9 @@ requirements:
     - {{ stdlib('c') }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-    - pkg-config
-    - meson
+    - meson >=0.64.0
     - ninja-base
+    - pkg-config
   host:
     - python
     - expat {{ expat }}
