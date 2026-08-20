@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.freedesktop.org/{name}/{name}/-/archive/{version}/{name}-{version}.tar.bz2
-  sha256: e759c5335ee29251764a7121b8f2eb0f879b769b6e483fd4b911986d6a06a0d8
+  sha256: 13f2af0480727551dbdf9c9c087226decfbf6dbf2decd500ce5fae2e966fc9f6
 
 build:
   number: 0
@@ -24,8 +24,9 @@ requirements:
     - meson
     - ninja-base
   host:
-    - expat
-    - libffi
+    - python
+    - expat {{ expat }}
+    - libffi {{ libffi }}
 
 test:
   commands:
