@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.freedesktop.org/{name}/{name}/-/archive/{version}/{name}-{version}.tar.bz2
-  sha256: 13f2af0480727551dbdf9c9c087226decfbf6dbf2decd500ce5fae2e966fc9f6
+  sha256: c6ab078790f60858c7688278f71f18f7400ddbc91ff12da17870c2dc5616a290
 
 build:
   number: 0
@@ -63,3 +63,6 @@ extra:
   recipe-maintainers:
     - hmaarrfk
     - pkgw
+  skip-lints:
+    - missing_imports_or_run_test_py
+    - python_build_tools_in_host
