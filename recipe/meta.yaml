@@ -10,7 +10,7 @@ source:
   sha256: e759c5335ee29251764a7121b8f2eb0f879b769b6e483fd4b911986d6a06a0d8
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('wayland', max_pin='x') }}
@@ -24,7 +24,6 @@ requirements:
     - ninja-base
     - pkg-config
   host:
-    - python
     - expat {{ expat }}
     - libffi {{ libffi }}
 
